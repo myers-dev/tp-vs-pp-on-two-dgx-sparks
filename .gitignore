@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtualenvs
+.venv/
+venv/
+env/
+ENV/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Vim/editor swap
+*.swp
+*.swo
+*~
+
+# Manim build output (scratch dirs — not committed)
+media/videos/
+media/texts/
+media/Tex/
+media/partial_movie_files/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large scratch / raw data
+*.jsonl
+*.json
+raw/
+data/
+
+# Secrets & credentials — NEVER commit these
+*.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials.json
